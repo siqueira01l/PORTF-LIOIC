@@ -1,0 +1,140 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* header */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+
+ul{
+    display: flex;
+    gap: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* main */
+
+#home{
+   padding-top: 50px;
+   height: calc(100vh - 50px);
+}
+
+img{
+    border-radius: 50%;
+}
+#img{
+    padding-left: 20px;
+}
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    height: 100%;
+}
+#homegroup{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-right: 20px;
+}
+#hometext{
+    text-align: center;
+    margin: 0px;
+    padding: 0px 0px;
+}
+#hometext h1{
+    margin: 0px;
+}
+.hi{
+    margin: 0;
+}
+#homebtn{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#redes{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.redes{
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.5s;
+    margin: 0;
+    padding: 0;
+
+}
+.redes:hover{
+    transform: scale(1.1);
+}
+#contact{
+    display: flex;
+    justify-content: center;
+    padding: 7px 60px;
+    background-color: rgb(255, 255, 255);
+    border: solid;
+    border-radius: 12px;
+    border-width: 1.5px;
+    margin-bottom: 8px;
+    margin-top: 0px;
+    transition: 0.5s;
+    font-size: larger;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.303);
+    cursor: pointer;
+}
+#contact:hover{
+    background-color: rgb(58, 58, 58);
+    color: rgb(255, 255, 255);
+    transform: scale(1.05);
+}
+
+#contactbtn{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.sep{
+   background: radial-gradient(circle at center, black, white);
+    height: 1px;
+    color: white;
+}
+
+
+
+
+
+
+
+
