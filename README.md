@@ -4,7 +4,8 @@
 
 <!-- GIF/BANNER -->
 
-<img width="1232" height="630" alt="fitplanner" src="https://github.com/user-attachments/assets/1c761d12-98d4-4403-8237-c8e34150feff" />
+<img width="1232" height="630" alt="fitplanner" src="<img width="1863" height="869" alt="Captura de tela 2026-06-11 082033" src="https://github.com/user-attachments/assets/2f607414-7ed1-44e8-bb4e-a041a9b8a244" />
+" />
 
 
 ### Estudante de Ciência da Computação • CESAR School
