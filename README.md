@@ -1,83 +1,143 @@
 # 🧑‍💻 Portfólio — Arthur Siqueira
 
-Portfólio pessoal desenvolvido com HTML, CSS e JavaScript, apresentando minha trajetória, habilidades e projetos como estudante de Ciência da Computação no CESAR School.
+<div align="center">
+
+<!-- GIF/BANNER -->
+
+<img src="COLE_SEU_BANNER_OU_GIF_AQUI" alt="Banner do Portfólio" width="100%"/>
+
+### Estudante de Ciência da Computação • CESAR School
+
+Construindo soluções através da tecnologia, aprendizado contínuo e desenvolvimento web.
+
+</div>
 
 ---
 
-## 📸 Visão Geral
+## 📖 Sobre o Projeto
 
-O site é uma página web responsiva com navegação suave entre seções, menu hamburguer para mobile, animações de fade-in e links diretos para redes sociais e projetos.
+Este portfólio foi desenvolvido com o objetivo de apresentar minha trajetória acadêmica, habilidades técnicas e projetos desenvolvidos durante minha formação em Ciência da Computação no CESAR School.
 
----
-
-## 📁 Estrutura do Projeto
-
-```
-PORTF-LIOIC/
-├── index.html              # Página principal (home, sobre, projetos, contato)
-├── style.css               # Estilos globais da página principal
-├── script.js               # Lógica do menu mobile e animações
-├── projetos.html           # Página do projeto FitPlanner
-├── projetos.css            # Estilos da página de projetos
-├── starbucks-projeto.html  # Página da Landing Page Starbucks
-├── starbucks-projeto.css   # Estilos da landing page
-├── as.png                  # Foto de perfil
-├── git.jpg                 # Ícone GitHub
-├── insta.jpg               # Ícone Instagram
-└── link.jpg                # Ícone LinkedIn
-```
+O site foi construído utilizando tecnologias web fundamentais, com foco em responsividade, experiência do usuário e boas práticas de desenvolvimento front-end.
 
 ---
 
-## 🚀 Funcionalidades
+## ✨ Funcionalidades
 
-- **Seção Home** — apresentação com foto, nome, descrição e links para redes sociais (Instagram, GitHub, LinkedIn)
-- **Seção Sobre** — bio pessoal, objetivos profissionais e habilidades (HTML, CSS, JS, Python)
-- **Seção Projetos** — cards clicáveis com descrição de cada projeto:
-  - **FitPlanner** — aplicação para organização de rotinas fitness
-  - **Landing Page Starbucks** — recriação da identidade visual da marca com foco em responsividade
-- **Seção Contato** — formulário com campos de nome, e-mail e mensagem
-- **Menu responsivo** — hamburguer menu para dispositivos móveis
-- **Animações** — efeito fade-in nas seções ao rolar a página
+* 🏠 Página inicial com apresentação pessoal
+* 👨‍💻 Seção sobre mim e objetivos profissionais
+* 📂 Exibição de projetos desenvolvidos
+* 📱 Layout totalmente responsivo
+* 🍔 Menu hamburguer para dispositivos móveis
+* 🎨 Animações suaves de entrada (fade-in)
+* 🔗 Integração com redes sociais
+* 📧 Formulário de contato
+
+---
+
+## 📸 Preview
+
+<div align="center">
+
+<!-- GIF OU SCREENSHOT -->
+
+<img src="COLE_SEU_GIF_AQUI" width="800"/>
+
+</div>
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-| Tecnologia | Uso |
-|---|---|
-| HTML5 | Estrutura das páginas |
-| CSS3 | Estilização e responsividade |
-| JavaScript | Interatividade (menu mobile, animações) |
-| Font Awesome 6.5 | Ícones das redes sociais |
-| Google Fonts | Tipografia (Space Grotesk + DM Sans) |
+<p align="center">
+<img src="https://skillicons.dev/icons?i=html,css,js,python,git,github,vscode" />
+</p>
+
+| Tecnologia   | Finalidade                   |
+| ------------ | ---------------------------- |
+| HTML5        | Estrutura das páginas        |
+| CSS3         | Estilização e responsividade |
+| JavaScript   | Interatividade e animações   |
+| Font Awesome | Ícones                       |
+| Google Fonts | Tipografia                   |
 
 ---
 
-## ▶️ Como Rodar Localmente
+## 📂 Projetos Apresentados
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/siqueira01l/PORTF-LIOIC.git
-   ```
+### 🏋️ FitPlanner
 
-2. Acesse a pasta do projeto:
-   ```bash
-   cd PORTF-LIOIC
-   ```
+Aplicação voltada para organização de rotinas fitness, planejamento de treinos e acompanhamento de objetivos.
 
-3. Abra o arquivo `index.html` no seu navegador — sem necessidade de servidor ou dependências.
+### ☕ Landing Page Starbucks
+
+Recriação da identidade visual da Starbucks com foco em design responsivo e experiência do usuário.
 
 ---
 
-## 🔗 Links
+## 📁 Estrutura do Projeto
 
-- 🌐 [GitHub](https://github.com/siqueira01l)
-- 💼 [LinkedIn](https://www.linkedin.com/in/arthursiqueira01/)
-- 📸 [Instagram](https://www.instagram.com/arthursiqueira01/)
+```bash
+PORTF-LIOIC/
+│
+├── index.html
+├── style.css
+├── script.js
+│
+├── projetos.html
+├── projetos.css
+│
+├── starbucks-projeto.html
+├── starbucks-projeto.css
+│
+├── as.png
+├── git.jpg
+├── insta.jpg
+└── link.jpg
+```
 
 ---
 
-## 📄 Licença
+## 🚀 Executando Localmente
 
-Este projeto está licenciado sob a licença [MIT](LICENSE).
+Clone o repositório:
+
+```bash
+git clone https://github.com/siqueira01l/PORTF-LIOIC.git
+```
+
+Acesse a pasta:
+
+```bash
+cd PORTF-LIOIC
+```
+
+Abra o arquivo:
+
+```bash
+index.html
+```
+
+Não é necessário instalar dependências ou executar servidor.
+
+---
+
+## 🌐 Conecte-se Comigo
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge\&logo=github)](https://github.com/siqueira01l)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge\&logo=linkedin)](https://www.linkedin.com/in/arthursiqueira01/)
+
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge\&logo=instagram)](https://www.instagram.com/arthursiqueira01/)
+
+</div>
+
+---
+
+<div align="center">
+
+### ⭐ Se este projeto foi útil para você, considere deixar uma estrela no repositório!
+
+</div>
