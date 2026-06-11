@@ -4,8 +4,8 @@
 
 <!-- GIF/BANNER -->
 
-<img src="<img width="1232" height="630" alt="fitplanner" src="https://github.com/user-attachments/assets/1c761d12-98d4-4403-8237-c8e34150feff" />
-" alt="Banner do Portfólio" width="100%"/>
+<img width="1232" height="630" alt="fitplanner" src="https://github.com/user-attachments/assets/1c761d12-98d4-4403-8237-c8e34150feff" />
+
 
 ### Estudante de Ciência da Computação • CESAR School
 
