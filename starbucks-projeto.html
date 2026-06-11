@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Landing Page — Projeto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="projetos.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h1 id="logo"><a href="index.html">AS</a></h1>
+            <button id="hamburguer" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul id="menu">
+                <li><a href="index.html#home" onclick="fecharMenu()">Início</a></li>
+                <li><a href="index.html#about" onclick="fecharMenu()">Sobre</a></li>
+                <li><a href="index.html#projects" onclick="fecharMenu()">Projetos</a></li>
+                <li><a href="index.html#contato" onclick="fecharMenu()">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- hero -->
+        <section class="hero fadein">
+            <span class="etiqueta">Projeto Individual</span>
+            <h1>Starbucks Landing Page</h1>
+            <p>Landing page desenvolvida para recriar a identidade visual da Starbucks, com foco em design responsivo, animações suaves e uma experiência de navegação agradável e fiel à marca.</p>
+            <div class="hero-btns">
+                <a href="https://github.com/seu-usuario/starbucks-landing" target="_blank" class="btn-primary">
+                    <i class="fab fa-github"></i> Ver no GitHub
+                </a>
+                
+            </div>
+        </section>
+
+        <!-- preview -->
+        <section class="video-section fadein" id="video">
+            <div class="video-wrapper">
+                <video autoplay loop muted playsinline disablePictureInPicture controlsList="nodownload nofullscreen noplaybackrate">
+                    <source src="images/Gravando 2026-06-11 011636.mp4" type="video/mp4">
+                    <div class="video-placeholder">
+                        <i class="fas fa-play-circle"></i>
+                        <span>Demonstração em breve</span>
+                    </div>
+                </video>
+            </div>
+        </section>
+
+        <!-- cards de detalhes -->
+        <section class="details fadein">
+
+            <div class="card card-full fadein">
+               
+                <h3>Participação</h3>
+                <p>Projeto desenvolvido de forma individual, sendo responsável por todas as etapas — desde o planejamento do layout até a implementação final. Trabalhei na construção da estrutura HTML semântica, na estilização completa com CSS puro incluindo animações e responsividade, e na adição de interatividade com JavaScript. O projeto foi um exercício de fidelidade visual a uma marca consolidada, exigindo atenção a detalhes como paleta de cores, tipografia e fluidez na navegação.</p>
+            </div>
+
+            <div class="card fadein">
+                
+                <h3>Objetivo</h3>
+                <p>Recriar a experiência visual da Starbucks em uma landing page moderna e responsiva, praticando habilidades de UI com HTML, CSS e JavaScript sem o uso de frameworks.</p>
+            </div>
+
+            <div class="card fadein">
+                
+                <h3>Tecnologias</h3>
+                <div class="tech-list">
+                    <span class="tech-badge">HTML</span>
+                    <span class="tech-badge">CSS</span>
+                    <span class="tech-badge">JavaScript</span>
+                </div>
+            </div>
+
+            <div class="card fadein">
+                
+                <h3>Funcionalidades</h3>
+                <p>A landing page conta com seções de destaque de produtos, navegação com menu responsivo, animações de scroll, carrossel de itens do cardápio e um layout adaptado para dispositivos móveis, tablets e desktops.</p>
+            </div>
+
+            <div class="card fadein">
+                
+                <h3>Aprendizados</h3>
+                <p>O projeto aprofundou meu entendimento de CSS avançado — incluindo variáveis, flexbox, grid e animações — além de consolidar práticas de JavaScript para manipulação do DOM. Também aprendi a traduzir uma identidade de marca real para código de forma consistente.</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -5,26 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
        
             <nav>
-                <h1 id="logo">AS</h1>
-                 <ul>
-                     <li><a href="#about">Sobre</a></li>
-                     <li>Projetos</li>
-                     <li>Contato</li>
-                 </ul>
+                <h1 id="logo"><a href="#home">AS</a></h1>
+                    <button id="hamburguer" onclick="toggleMenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                <ul id="menu">
+                    <li><a href="#home" onclick="toggleMenu()">Início</a></li>
+                    <li><a href="#about" onclick="toggleMenu()">Sobre</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projetos</a></li>
+                    <li><a href="#contato" onclick="toggleMenu()">Contato</a></li>
+                </ul>
             </nav>
     </header>
 
     <main>
-        <section id="home">
+        <!--=================== home ================= -->
+        <section id="home" class="fadein">
 
          <div class="cont">
             <div id="img">
-                <img src="as.png" width="280px" alt="Arthur Siqueira">
+                <img src="images/as.png" width="280px" alt="Arthur Siqueira" id="siq">
             </div>
             <div id="homegroup">
             <div id="hometext">
@@ -36,23 +45,21 @@
             <div id="homebtn">
 
                 <div id="contactbtn">
-                    <button id="contact">Entre em contato</button>
+                    <button id="contact"><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJvlqBNsXvWpmXRhxddmrcVVGCnFDfJqwPHllqgfXLRdnKrDpgpVBtrKfkWJQnbVzRlMcxB">Entre em contato</a></button>
                 </div>
 
                 <div id="redes">
                     <button class="redes">
-                        <a href="https://www.instagram.com/arthursiqueira01/">
-                            <img src="insta.jpg" width="48px" alt="insta" class="imgbtn">
-                            </a>
+                        <a href="https://www.instagram.com/arthursiqueira01/"><i class="fab fa-instagram"></i></button></a>
                     </button>
                     <button class="redes">
                        <a href="https://github.com/siqueira01l">
-                        <img src="git.jpg" alt="git" width="40px">
+                        <i class="fab fa-github"></i>
                     </a>
                     </button>
                     <button class="redes">
                         <a href="https://www.linkedin.com/in/arthursiqueira01/">
-                        <img src="link.jpg" alt="" width="47px">
+                        <i class="fab fa-linkedin-in"></i>
                         </a>
                     </button>
                 </div>
@@ -61,13 +68,101 @@
          </div>
 
         </section>
-        <div class="sep">'</div>
 
+
+        <div class="sep"></div>
+
+    <!--=================== about ================= -->
         <section id="about">
+            <h1 id="sobreh1">Sobre</h1>
 
+            <div id="aboutpage">
+            <div id="conjunto">
+            <div class="sobre fadein" id="eu">
+                <h2>Sobre mim</h2>
+                <p>Nasci em Olinda, em 2007, e me mudei para Recife alguns anos depois. Foi no 9º ano do ensino fundamental que descobri meu interesse pela programação, algo que começou como curiosidade e acabou se tornando uma parte importante dos meus planos para o futuro. Hoje curso Ciência da Computação no CESAR School e gosto da combinação entre tecnologia, criatividade e resolução de problemas. Acredito que aprender vai muito além da sala de aula e busco constantemente desenvolver novas habilidades e expandir meus conhecimentos. <br> <br>
+
+                Fora da tecnologia, música e esporte                ocupam um espaço importante na minha            rotina. Escuto de tudo, de Frank Sinatra            a funk, e gosto de descobrir novos          estilos e artistas. Também me mantenho           ativo através da academia e da corrida,          atividades que me ajudam a desenvolver         disciplina e consistência. Sou uma pessoa            comunicativa, expressiva e curiosa, que         valoriza boas conversas, novas           perspectivas e a construção de conexões             genuínas ao longo da vida.</p>
+            </div>
+
+            <div class="sobre fadein" id="futuro">
+                
+                <h2>O que busco</h2>
+                <p>Ainda estou explorando as diferentes possibilidades que a tecnologia oferece, mas duas áreas despertam especialmente meu interesse: cibersegurança e desenvolvimento de software. Embora sigam caminhos diferentes, vejo valor em ambas e busco entender cada vez mais seus conceitos, aplicações e desafios. Meu objetivo é construir uma base sólida de conhecimento, adquirir experiência prática e continuar evoluindo sem perder a curiosidade que me motivou a entrar nessa área. <br> <br>
+
+                Além do crescimento técnico, também valorizo a construção de conexões               genuínas com pessoas que compartilham               interesses e objetivos semelhantes.             Acredito que aprender vai além do estudo            individual e que muitas oportunidades         surgem através da troca de conhecimento,              da colaboração e das relações construídas       ao longo da jornada. Por isso, procuro               desenvolver não apenas minhas habilidades       profissionais, mas também uma rede de            contatos sólida que contribua para meu            crescimento pessoal e para os desafios      que pretendo enfrentar no futuro.</p>
+            </div>
+            </div>
+
+            <div class="pai fadein">
+            <div id="skills">
+                <h2>Habilidades</h2>
+
+                <div id="lang">
+
+                <img src="images/html.png" alt="" width="50px">
+                
+
+                <img src="images/css-3.png" alt="" width="63px">
+
+                <img src="images/js.png" alt="" width="50px">
+
+                <img src="images/python.png" alt="" width="50px">
+
+                </div>
+            </div>
+            </div>
+            </div>
         </section>
-    </main>
+        
+        <div class="sep"></div>
+        <!--=================== projetos=============== -->
 
+        <section id="projects">
+
+            <!-- FITPLANNER -->
+
+             <div id="projetosh1">
+                <h1>Projetos</h1>
+             </div>
+
+             <button class="containerp fadein" onclick="window.location.href='projetos.html'" >
+                
+                    <img src="images/fitplanner.png" alt="" width="300px" id="planerimg">
+                    <div id="planertext">
+                    <h2>FitPlanner</h2>
+                    <p>O FitPlanner é uma aplicação desenvolvida para auxiliar usuários na organização e acompanhamento de sua rotina fitness. O projeto reúne ferramentas voltadas ao planejamento de treinos e ao monitoramento de informações importantes, oferecendo uma experiência prática, intuitiva e acessível para quem busca mais consistência nos seus objetivos.</p>
+                </div>
+             </div>
+
+             <button class="containerp fadein" onclick="window.location.href='starbucks-projeto.html'">
+                
+                <img src="images/landingpage.png" alt="" width="300px" id="planerimg">
+                <div id="planertext">
+                    <h2>Landing Page</h2>
+                    <p>Landing page inspirada na identidade visual da Starbucks, desenvolvida com foco em design, responsividade e atenção aos detalhes. O projeto explora a criação de interfaces modernas, buscando reproduzir uma experiência visual agradável e alinhada à proposta da marca.</p>
+                </div>
+             </div>
+        </section>
+       
+         <div class="sep"></div>
+        <!-- ================Contato==================== -->
+
+        <section id="contato">
+            <h1 id="contatoh1" class="fadein">Contato</h1>
+            <div id="contatoform" class="fadein">
+                <input type="text" placeholder="Seu nome" id="nome">
+
+                <input type="email" placeholder="Seu e-mail" id="email">
+
+                <textarea placeholder="Sua mensagem" id="mensagem" rows="5"></textarea>
+
+                <button id="enviar">Enviar mensagem</button>
+            </div>
+        </section>
+        
+    </main>
+    <script src="script.js"></script>
 
 </body>
 </html>

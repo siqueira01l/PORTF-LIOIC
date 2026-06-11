@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitPlanner — Projeto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="projetos.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h1 id="logo"><a href="index.html">AS</a></h1>
+            <button id="hamburguer" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul id="menu">
+                <li><a href="index.html#home" onclick="fecharMenu()">Início</a></li>
+                <li><a href="index.html#about" onclick="fecharMenu()">Sobre</a></li>
+                <li><a href="index.html#projects" onclick="fecharMenu()">Projetos</a></li>
+                <li><a href="index.html#contato" onclick="fecharMenu()">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- hero -->
+        <section class="hero fadein">
+            <span class="etiqueta">Projeto em Equipe</span>
+            <h1>FitPlanner</h1>
+            <p>Aplicação desenvolvida para auxiliar na organização e acompanhamento de rotinas fitness, reunindo ferramentas de planejamento de treinos e monitoramento de progresso em uma experiência prática e intuitiva.</p>
+            <div class="hero-btns">
+                <a href="https://github.com/Miguel-1406/FITPLANNER" target="_blank" class="btn-primary">
+                    <i class="fab fa-github"></i> Ver no GitHub
+                </a>
+            </div>
+        </section>
+
+        <!-- vídeo -->
+        <section class="video-section fadein" id="video">
+            <div class="video-wrapper">
+                <video autoplay loop muted playsinline disablePictureInPicture controlsList="nodownload nofullscreen noplaybackrate">
+                    <source src="images/Gravação de Tela 2026-06-10 231513.mp4" type="video/mp4">
+                    <div class="video-placeholder">
+                        <i class="fas fa-play-circle"></i>
+                        <span>Demonstração em breve</span>
+                    </div>
+                </video>
+            </div>
+        </section>
+
+        <!-- cards de detalhes -->
+        <section class="details">
+
+            <div class="card card-full fadein">
+            
+                <h3>Participação</h3>
+                <p>No projeto FitPlanner, fui responsável pelo desenvolvimento de todo o front-end da aplicação e pela integração das interfaces com o back-end. Também contribuí na correção de alguns bugs do servidor e participei do desenvolvimento da funcionalidade Extras, implementando cálculos como IMC, RCQ, IMG e BF. Essa experiência me permitiu atuar em diferentes etapas do projeto, desde a construção da interface até a resolução de problemas e implementação de novas funcionalidades.</p>
+            </div>
+
+            <div class="card fadein">
+                
+                <h3>Objetivo</h3>
+                <p>Facilitar o planejamento e acompanhamento de treinos, oferecendo uma interface clara para quem busca mais consistência nos objetivos fitness.</p>
+            </div>
+
+            <div class="card fadein">
+                <div class="tech-list">
+                    <span class="tech-badge">HTML</span>
+                    <span class="tech-badge">CSS</span>
+                    <span class="tech-badge">JavaScript</span>
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">Flask</span>
+                    <span class="tech-badge">SQLite</span>
+                    <span class="tech-badge">SQLalchemy</span>
+                </div>
+            </div>
+
+            <div class="card fadein">
+                
+                <h3>Funcionalidades</h3>
+                <p>O FitPlanner possui funcionalidades como  gerenciamento de treinos e planos de exercícios, armazenamento de informações em banco de dados e uma interface intuitiva para facilitar o acompanhamento das atividades. O sistema permite organizar e acessar dados de forma prática, proporcionando uma melhor experiência ao usuário.</p>
+            </div>
+
+            <div class="card fadein">
+                <h3>Aprendizados</h3>
+                <p>No projeto FitPlanner, aprendi a desenvolver uma aplicação web utilizando Flask, Python, HTML, CSS e JavaScript, além de gerenciar dados com SQL e SQLAlchemy. O projeto me ajudou a entender a integração entre front-end, back-end e banco de dados, aprimorando minhas habilidades em desenvolvimento web.</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
